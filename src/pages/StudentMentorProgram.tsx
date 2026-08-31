@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Clock, Video, Users, CheckCircle2, MessageCircle, HelpCircle, Award } from 'lucide-react';
-import heroImg from '../assets/images/student_mentor_session_1788137760624.jpg';
+import heroImg from '../assets/images/StudentMentorProgram.png';
 
 export default function StudentMentorProgram() {
   return (
