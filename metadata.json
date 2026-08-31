@@ -1,0 +1,6 @@
+{
+  "name": "NEXT EDUCATION",
+  "description": "Empowering Students to Learn, Lead & Give Back through STEM, mentorship, and service.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
