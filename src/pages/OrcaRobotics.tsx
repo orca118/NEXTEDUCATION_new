@@ -5,6 +5,8 @@ import orca1 from '../assets/images/Orca1.jpg';
 import orca2 from '../assets/images/Orca2.jpg';
 import orca3 from '../assets/images/Orca3.jpg';
 import orca4 from '../assets/images/Orca4.png';
+import christopherPhoto from '../assets/images/christopher.jpg';
+import sophiaPhoto from '../assets/images/Sophia.jpg';
 
 export default function OrcaRobotics() {
   return (
@@ -189,8 +191,12 @@ export default function OrcaRobotics() {
 
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col items-center text-center">
-                <div className="w-24 h-24 bg-slate-100 rounded-full mb-6 overflow-hidden flex items-center justify-center text-slate-400">
-                  <Users size={32} />
+                <div className="w-24 h-24 bg-slate-100 rounded-full mb-6 overflow-hidden">
+                  <img
+                    src={christopherPhoto}
+                    alt="Christopher Wang"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 <h3 className="text-2xl font-bold text-slate-900 mb-1">
@@ -209,8 +215,12 @@ export default function OrcaRobotics() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col items-center text-center">
-                <div className="w-24 h-24 bg-slate-100 rounded-full mb-6 overflow-hidden flex items-center justify-center text-slate-400">
-                  <Users size={32} />
+                <div className="w-24 h-24 bg-slate-100 rounded-full mb-6 overflow-hidden">
+                  <img
+                    src={sophiaPhoto}
+                    alt="Sophia Wang"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 <h3 className="text-2xl font-bold text-slate-900 mb-1">
