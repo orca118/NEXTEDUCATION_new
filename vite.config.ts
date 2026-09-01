@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/NEXTEDUCATION_new/',
+    base: '/',
 
     plugins: [react(), tailwindcss()],
 
