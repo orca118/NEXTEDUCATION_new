@@ -1,6 +1,9 @@
 import { motion } from 'motion/react';
 import { BookOpen, Users, Award, Shield } from 'lucide-react';
 
+import christopherPhoto from '../assets/images/christopher.jpg';
+import sophiaPhoto from '../assets/images/Sophia.jpg';
+
 export default function About() {
   return (
     <div className="w-full">
@@ -68,17 +71,20 @@ export default function About() {
             >
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-20 h-20 bg-slate-200 rounded-full overflow-hidden shrink-0">
-                  <div className="w-full h-full bg-slate-300 flex items-center justify-center text-slate-500">
-                    <Users size={32} />
-                  </div>
+                  <img
+                    src={christopherPhoto}
+                    alt="Christopher Wang"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900">Christopher Wang</h3>
                   <p className="text-blue-600 font-medium">Co-Founder | Grade 12</p>
+                  <p className="text-slate-500 text-sm">Montgomery Blair High School</p>
                 </div>
               </div>
               <p className="text-slate-600 mb-6">
-                Christopher is a high school senior with strong interests in physics, mathematics, engineering, robotics, and scientific research.
+                Christopher is a 12th-grade student at Montgomery Blair High School with strong interests in physics, mathematics, engineering, robotics, and scientific research.
               </p>
               <div className="mb-6">
                 <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
@@ -131,18 +137,21 @@ export default function About() {
             >
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-20 h-20 bg-slate-200 rounded-full overflow-hidden shrink-0">
-                  <div className="w-full h-full bg-slate-300 flex items-center justify-center text-slate-500">
-                    <Users size={32} />
-                  </div>
+                  <img
+                    src={sophiaPhoto}
+                    alt="Sophia Wang"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900">Sophia Wang</h3>
                   <p className="text-blue-600 font-medium">Co-Founder | Grade 11</p>
                   <p className="text-slate-500 text-sm">Student Mentor Program Founder</p>
+                  <p className="text-slate-500 text-sm">Richard Montgomery High School</p>
                 </div>
               </div>
               <p className="text-slate-600 mb-6">
-                Sophia is a high school junior passionate about robotics, scientific research, STEM education, mentorship, and community service.
+                Sophia is an 11th-grade student at Richard Montgomery High School passionate about robotics, scientific research, STEM education, mentorship, and community service.
               </p>
               <div className="mb-6">
                 <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
